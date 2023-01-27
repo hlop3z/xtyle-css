@@ -1,0 +1,24 @@
+/* Extra Small Devices */
+@media (max-width: 575px) {
+  /* CSS styles for extra small devices */
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS styles for small devices */
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium devices */
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS styles for large devices */
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+  /* CSS styles for extra large devices */
+}

@@ -1,0 +1,44 @@
+/* Reset */
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Display */
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-none {
+  display: none !important;
+}
+
+/* Overflow */
+.oy-h {
+  overflow-y: hidden !important;
+}
+
+.oy-a {
+  overflow-y: auto !important;
+}
+
+.ox-h {
+  overflow-x: hidden !important;
+}
+
+.ox-a {
+  overflow-x: auto !important;
+}

@@ -1,0 +1,11 @@
+.md-typeset__table {
+    min-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+    display: table;
+}
+
+code.big {
+    font-size: 24px !important;
+}

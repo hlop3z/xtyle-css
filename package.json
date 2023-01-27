@@ -1,0 +1,31 @@
+{
+  "name": "xtyle-css",
+  "version": "0.1.0",
+  "description": "CSS Tools.",
+  "main": "dist/style.min.css",
+  "scripts": {
+    "pre": "cat src/*.css > dist/style.css",
+    "size": "gzip -c dist/style.min.css | wc -c",
+    "build": "npm run pre && npx postcss --no-map ./dist/style.css > ./dist/style.min.css && npm run size"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlop3z/xtyle-css.git"
+  },
+  "keywords": [
+    "framework",
+    "xtyle"
+  ],
+  "bugs": {
+    "url": "https://github.com/hlop3z/xtyle-css/issues"
+  },
+  "homepage": "https://github.com/hlop3z/xtyle-css#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}

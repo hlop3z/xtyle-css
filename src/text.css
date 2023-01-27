@@ -1,0 +1,87 @@
+/* Text Size */
+.ts-1 {
+  font-size: 3rem;
+}
+.ts-2 {
+  font-size: 2.25rem;
+}
+.ts-3 {
+  font-size: 1.5rem;
+}
+.ts-4 {
+  font-size: 1.25rem;
+}
+.ts-5 {
+  font-size: 1rem;
+}
+.ts-6 {
+  font-size: 0.875rem;
+}
+
+/* Text Decoration */
+.td-i {
+  font-style: italic;
+}
+.td-b {
+  font-weight: bold;
+}
+.td-u {
+  text-decoration: underline;
+}
+.td-s {
+  text-decoration: line-through;
+}
+
+/* Text Transform */
+.tt-t {
+  text-transform: capitalize;
+}
+.tt-u {
+  text-transform: uppercase;
+}
+.tt-l {
+  text-transform: lowercase;
+}
+
+/* Fonts */
+.tf-sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+}
+.tf-serif {
+  font-family: georgia, times, serif;
+}
+.tf-code {
+  font-family: Consolas, monaco, monospace;
+}
+.tf-courier {
+  font-family: "Courier Next", courier, monospace;
+}
+.tf-helvetica {
+  font-family: "helvetica neue", helvetica, sans-serif;
+}
+.tf-avenir {
+  font-family: "avenir next", avenir, sans-serif;
+}
+.tf-athelas {
+  font-family: athelas, georgia, serif;
+}
+.tf-georgia {
+  font-family: georgia, serif;
+}
+.tf-times {
+  font-family: times, serif;
+}
+.tf-bodoni {
+  font-family: "Bodoni MT", serif;
+}
+.tf-calisto {
+  font-family: "Calisto MT", serif;
+}
+.tf-garamond {
+  font-family: garamond, serif;
+}
+.tf-baskerville {
+  font-family: baskerville, serif;
+}
