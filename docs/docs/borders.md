@@ -22,7 +22,8 @@ Follow this schema **`b{type}-{value}`**.
 
         and . . .
 
-        - <code class="big">N</code> stands for **Negative** aka: the opposite. In this case **`display : none`**
+        - <code class="big">N</code> stands for **Negative** aka: the opposite. In this case **`display : none`** borders.
+        - <code class="big">A</code> stands for **All** In this case **`display : all`** borders.
 
 ## Demo
 

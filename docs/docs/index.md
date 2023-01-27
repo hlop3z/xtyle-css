@@ -4,6 +4,12 @@ Welcome to **`Xtyle-CSS`** a tool design to be a **`colorless`** and without **`
 
 Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="_blank">**`Xtyle`**</a>. But you can use this as a **standalone** tool.
 
+## No Install
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/xtyle-css@latest" />
+```
+
 !!! tip "Tools"
 
     <code class="big">d | m | p | t | b | s | o | row | col | g</code>

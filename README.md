@@ -25,5 +25,5 @@
    Docs
    </a>
    <br>
-   <a href="https://github.com/hlop3z/xtyle" target="_blank">Xtyle - CSS</a>
+   <a href="https://github.com/hlop3z/xtyle" target="_blank">Xtyle - JS</a>
 </p>
