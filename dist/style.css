@@ -6,23 +6,23 @@ body,
 }
 
 /* Display */
-.d-block {
+.d-b {
   display: block;
 }
 
-.d-inline-block {
+.d-ib {
   display: inline-block;
 }
 
-.d-flex {
+.d-f {
   display: flex;
 }
 
-.d-inline-flex {
+.d-if {
   display: inline-flex;
 }
 
-.d-none {
+.d-n {
   display: none !important;
 }
 
