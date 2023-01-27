@@ -26,6 +26,39 @@ body,
   display: none !important;
 }
 
+/* Flex Display */
+.dy-fs {
+  align-items: flex-start;
+}
+.dy-fe {
+  align-items: flex-end;
+}
+.dy-ce {
+  align-items: flex-start;
+}
+.dy-st {
+  align-items: stretch;
+}
+
+.dx-fs {
+  justify-content: flex-start;
+}
+.dx-fe {
+  justify-content: flex-end;
+}
+.dx-ce {
+  justify-content: flex-start;
+}
+.dx-sb {
+  justify-content: space-between;
+}
+.dx-sa {
+  justify-content: space-around;
+}
+.dx-se {
+  justify-content: space-evenly;
+}
+
 /* Overflow */
 .oy-h {
   overflow-y: hidden !important;
@@ -41,7 +74,8 @@ body,
 
 .ox-a {
   overflow-x: auto !important;
-}/* Width */
+}
+/* Width */
 .bw-0 {
   border-width: 0;
 }
