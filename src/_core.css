@@ -34,7 +34,7 @@ body,
   align-items: flex-end;
 }
 .dy-ce {
-  align-items: flex-start;
+  align-items: center;
 }
 .dy-st {
   align-items: stretch;
@@ -47,7 +47,7 @@ body,
   justify-content: flex-end;
 }
 .dx-ce {
-  justify-content: flex-start;
+  justify-content: center;
 }
 .dx-sb {
   justify-content: space-between;
