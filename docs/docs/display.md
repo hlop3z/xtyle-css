@@ -57,3 +57,31 @@ Follow this schema **`d{ y | x }-{spacing}`**
 | <code class="big">sb</code> | css -> `space-between` |
 | <code class="big">sa</code> | css -> `space-around`  |
 | <code class="big">se</code> | css -> `space-evenly`  |
+
+## Demo | **Flex-Grow**
+
+```html
+<div class="d-f dx-sb">
+  <div class="df-g1">Big</div>
+  <div class="df-g0">Small</div>
+  <div class="df-g1">Big</div>
+</div>
+```
+
+## **DF** | Flex-Grow (Options)
+
+| Key                            | Description           |
+| ------------------------------ | --------------------- |
+| <code class="big">df-g0</code> | css -> `flex-grow: 0` |
+| <code class="big">df-g1</code> | css -> `flex-grow: 1` |
+
+## **DF** | Flex-Direction (Options)
+
+| Key                             | Description                     |
+| ------------------------------- | ------------------------------- |
+| <code class="big">df-row</code> | css -> `flex-direction: row`    |
+| <code class="big">df-col</code> | css -> `flex-direction: column` |
+
+!!! warning "`df-col`"
+
+        The `flex-direction: column` requires a fixed `height`. For the `flex-grow` to work.

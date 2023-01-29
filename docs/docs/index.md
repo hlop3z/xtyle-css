@@ -16,23 +16,27 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 
 ## **Utils**
 
-| Key                          | Description                      |
-| ---------------------------- | -------------------------------- |
-| <code class="big">d</code>   | Display                          |
-| <code class="big">m</code>   | Margin [(Spacing)](/spacing/)    |
-| <code class="big">p</code>   | Padding [(Spacing)](/spacing/)   |
-| <code class="big">t</code>   | Text                             |
-| <code class="big">b</code>   | Border                           |
-| <code class="big">s</code>   | Shadow                           |
-| <code class="big">o</code>   | Overflow                         |
-| <code class="big">row</code> | Row [(Rows & Columns)](/row/)    |
-| <code class="big">col</code> | Column [(Rows & Columns)](/row/) |
-| <code class="big">g</code>   | Gap [(Rows & Columns)](/row/)    |
+| Key                          | Description                     |
+| ---------------------------- | ------------------------------- |
+| <code class="big">d</code>   | Display                         |
+| <code class="big">m</code>   | Margin [(Spacing)](spacing/)    |
+| <code class="big">p</code>   | Padding [(Spacing)](spacing/)   |
+| <code class="big">t</code>   | Text                            |
+| <code class="big">b</code>   | Border                          |
+| <code class="big">s</code>   | Shadow                          |
+| <code class="big">o</code>   | Overflow                        |
+| <code class="big">row</code> | Row [(Rows & Columns)](row/)    |
+| <code class="big">col</code> | Column [(Rows & Columns)](row/) |
+| <code class="big">g</code>   | Gap [(Rows & Columns)](row/)    |
 
 ## Inspired by
 
+!!! note "Normalize.css"
+
+        This project now also includes the [**`normalize.css`**](https://necolas.github.io/normalize.css/)
+
 A couple of projects including `bootstrap` have inspired me to make my own set of tools built with consonantly seen ideas.
-I just like to build stuff. If you are looking for a **production ready**, i will recommend using on of those tools or another tool.
+If you are looking for a **production ready**, i will recommend using on of these tools or another tool.
 
 - <a href="https://getmdl.io/" target="_blank">Material Design Lite</a>
 - <a href="https://vuetifyjs.com/" target="_blank">Vuetify</a>

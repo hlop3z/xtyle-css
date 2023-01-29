@@ -27,15 +27,34 @@ body,
 }
 
 /* Flex Display */
+.df-g0 {
+  flex-grow: 0;
+}
+
+.df-g1 {
+  flex-grow: 1;
+}
+
+.df-row {
+  flex-direction: row;
+}
+
+.df-col {
+  flex-direction: column;
+}
+
 .dy-fs {
   align-items: flex-start;
 }
+
 .dy-fe {
   align-items: flex-end;
 }
+
 .dy-ce {
   align-items: center;
 }
+
 .dy-st {
   align-items: stretch;
 }
@@ -43,18 +62,23 @@ body,
 .dx-fs {
   justify-content: flex-start;
 }
+
 .dx-fe {
   justify-content: flex-end;
 }
+
 .dx-ce {
   justify-content: center;
 }
+
 .dx-sb {
   justify-content: space-between;
 }
+
 .dx-sa {
   justify-content: space-around;
 }
+
 .dx-se {
   justify-content: space-evenly;
 }

@@ -43,6 +43,19 @@
   text-transform: lowercase;
 }
 
+/* Text Align */
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.ta-r {
+  text-align: right;
+}
+
 /* Fonts */
 .tf-sans-serif {
   font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
