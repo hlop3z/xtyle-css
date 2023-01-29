@@ -21,6 +21,7 @@ Follow this schema **`t{type}-{value}`**.
 <div class="ts-6">Hello World</div>
 <div class="td-i">Hello World</div>
 <div class="tt-u">Hello World</div>
+<div class="ta-c">Hello World</div>
 <div class="tf-code">Hello World</div>
 ```
 

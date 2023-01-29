@@ -386,6 +386,10 @@ body,
   flex-grow: 1;
 }
 
+.df-row {
+  flex-direction: row;
+}
+
 .df-col {
   flex-direction: column;
 }
@@ -2593,6 +2597,19 @@ body,
 }
 .tt-l {
   text-transform: lowercase;
+}
+
+/* Text Align */
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.ta-r {
+  text-align: right;
 }
 
 /* Fonts */
