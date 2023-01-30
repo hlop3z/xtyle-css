@@ -1,0 +1,39 @@
+/* Extra Small Devices */
+@media (max-width: 575px) {
+  /* CSS styles for extra small devices */
+  .hide-xs {
+    display: none;
+  }
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS styles for small devices */
+  .hide-sm {
+    display: none;
+  }
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium devices */
+  .hide-md {
+    display: none;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS styles for large devices */
+  .hide-lg {
+    display: none;
+  }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+  /* CSS styles for extra large devices */
+  .hide-xl {
+    display: none;
+  }
+}
