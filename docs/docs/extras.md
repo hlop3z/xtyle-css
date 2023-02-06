@@ -1,3 +1,7 @@
+# Util | **Extras**
+
+Follow this schema **`e{type}-{value}`** or **`e-{value}`** .
+
 ## **`e`** For Extras
 
 | Key                           | Description             |

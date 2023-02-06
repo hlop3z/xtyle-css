@@ -12,20 +12,21 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 
 !!! tip "Tools"
 
-    <code class="big">d | m | p | t | b | s | o | e | row | col | g</code>
+    <code class="big">d | m | p | t | b | s | o | e | l | row | col | g</code>
 
 ## **Utils**
 
 | Key                          | Description                     |
 | ---------------------------- | ------------------------------- |
-| <code class="big">d</code>   | Display                         |
+| <code class="big">d</code>   | [Display](display/)             |
 | <code class="big">m</code>   | Margin [(Spacing)](spacing/)    |
 | <code class="big">p</code>   | Padding [(Spacing)](spacing/)   |
-| <code class="big">t</code>   | Text                            |
-| <code class="big">b</code>   | Border                          |
+| <code class="big">t</code>   | [Text](text/)                   |
+| <code class="big">b</code>   | [Borders](borders/)             |
 | <code class="big">s</code>   | [Shadows](shadows/)             |
 | <code class="big">o</code>   | [Overflow](overflow/)           |
 | <code class="big">e</code>   | [Extras](extras/)               |
+| <code class="big">l</code>   | [Layout](layout/)               |
 | <code class="big">row</code> | Row [(Rows & Columns)](row/)    |
 | <code class="big">col</code> | Column [(Rows & Columns)](row/) |
 | <code class="big">g</code>   | Gap [(Rows & Columns)](row/)    |
