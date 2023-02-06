@@ -1,100 +1,105 @@
 /* Text Size */
 .ts-1 {
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 .ts-2 {
-  font-size: 2.25rem;
+  font-size: 2.25rem !important;
 }
 .ts-3 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 .ts-4 {
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
 }
 .ts-5 {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 .ts-6 {
-  font-size: 0.875rem;
+  font-size: 0.875rem !important;
 }
 
 /* Text Decoration */
 .td-i {
-  font-style: italic;
+  font-style: italic !important;
 }
 .td-b {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 .td-u {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .td-s {
-  text-decoration: line-through;
+  text-decoration: line-through !important;
 }
 
 /* Text Transform */
 .tt-t {
-  text-transform: capitalize;
+  text-transform: capitalize !important;
 }
 .tt-u {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 .tt-l {
-  text-transform: lowercase;
+  text-transform: lowercase !important;
+}
+.tt-c {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* Text Align */
 .ta-c {
-  text-align: center;
+  text-align: center !important;
 }
 
 .ta-l {
-  text-align: left;
+  text-align: left !important;
 }
 
 .ta-r {
-  text-align: right;
+  text-align: right !important;
 }
 
 /* Fonts */
 .tf-sans-serif {
   font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
     helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
-    sans-serif;
+    sans-serif !important;
 }
 .tf-serif {
-  font-family: georgia, times, serif;
+  font-family: georgia, times, serif !important;
 }
 .tf-code {
-  font-family: Consolas, monaco, monospace;
+  font-family: Consolas, monaco, monospace !important;
 }
 .tf-courier {
-  font-family: "Courier Next", courier, monospace;
+  font-family: "Courier Next", courier, monospace !important;
 }
 .tf-helvetica {
-  font-family: "helvetica neue", helvetica, sans-serif;
+  font-family: "helvetica neue", helvetica, sans-serif !important;
 }
 .tf-avenir {
-  font-family: "avenir next", avenir, sans-serif;
+  font-family: "avenir next", avenir, sans-serif !important;
 }
 .tf-athelas {
-  font-family: athelas, georgia, serif;
+  font-family: athelas, georgia, serif !important;
 }
 .tf-georgia {
-  font-family: georgia, serif;
+  font-family: georgia, serif !important;
 }
 .tf-times {
-  font-family: times, serif;
+  font-family: times, serif !important;
 }
 .tf-bodoni {
-  font-family: "Bodoni MT", serif;
+  font-family: "Bodoni MT", serif !important;
 }
 .tf-calisto {
-  font-family: "Calisto MT", serif;
+  font-family: "Calisto MT", serif !important;
 }
 .tf-garamond {
-  font-family: garamond, serif;
+  font-family: garamond, serif !important;
 }
 .tf-baskerville {
-  font-family: baskerville, serif;
+  font-family: baskerville, serif !important;
 }

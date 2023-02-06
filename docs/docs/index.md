@@ -12,7 +12,7 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 
 !!! tip "Tools"
 
-    <code class="big">d | m | p | t | b | s | o | row | col | g</code>
+    <code class="big">d | m | p | t | b | s | o | e | row | col | g</code>
 
 ## **Utils**
 
@@ -23,8 +23,9 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 | <code class="big">p</code>   | Padding [(Spacing)](spacing/)   |
 | <code class="big">t</code>   | Text                            |
 | <code class="big">b</code>   | Border                          |
-| <code class="big">s</code>   | Shadow                          |
-| <code class="big">o</code>   | Overflow                        |
+| <code class="big">s</code>   | [Shadows](shadows/)             |
+| <code class="big">o</code>   | [Overflow](overflow/)           |
+| <code class="big">e</code>   | [Extras](extras/)               |
 | <code class="big">row</code> | Row [(Rows & Columns)](row/)    |
 | <code class="big">col</code> | Column [(Rows & Columns)](row/) |
 | <code class="big">g</code>   | Gap [(Rows & Columns)](row/)    |

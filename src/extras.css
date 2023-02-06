@@ -1,0 +1,36 @@
+.eh-100p {
+  height: 100% !important;
+}
+.ew-100p {
+  width: 100% !important;
+}
+
+.eh-100v {
+  height: 100vh !important;
+}
+.ew-100v {
+  width: 100vw !important;
+}
+
+.eh-i {
+  height: inherit !important;
+}
+.ew-i {
+  width: inherit !important;
+}
+
+.e-ns {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.e-p {
+  cursor: pointer;
+}
+
+.ef-r {
+  float: right !important;
+}
+.ef-l {
+  float: left !important;
+}

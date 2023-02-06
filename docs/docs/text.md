@@ -6,7 +6,7 @@ Follow this schema **`t{type}-{value}`**.
 | --------------------------- | ----------------------------------------------------------------------- |
 | <code class="big">ts</code> | Text-**Size** ~ Options: (**`1`** to **`6`**)                           |
 | <code class="big">td</code> | Text-**Decoration** ~ Options: (**`i`** - **`b`** - **`u`** - **`s`** ) |
-| <code class="big">tt</code> | Text-**Transform** ~ Options: (**`t`** - **`u`** - **`l`** )            |
+| <code class="big">tt</code> | Text-**Transform** ~ Options: (**`t`** - **`u`** - **`l`** - **`c`** )  |
 | <code class="big">ta</code> | Text-**Align** ~ Options: (**`c`** - **`r`** - **`l`** )                |
 | <code class="big">tf</code> | Text-**Font**                                                           |
 
@@ -36,6 +36,7 @@ Follow this schema **`t{type}-{value}`**.
 - <code class="big">t</code> meaning **Title** (**`capitalize`**)
 - <code class="big">u</code> meaning **Upper** (**`uppercase`**)
 - <code class="big">l</code> meaning **Lower** (**`lowercase`**)
+- <code class="big">c</code> meaning **Cut** (**`ellipsis`**)
 
 ### Text **Decoration**
 
