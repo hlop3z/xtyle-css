@@ -26,6 +26,11 @@
   left: 0;
   right: 0;
 }
+.lm {
+  transition-property: left, right;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
 
 /* Side */
 .lm,
