@@ -353,19 +353,19 @@ body,
 
 /* Display */
 .d-b {
-  display: block;
+  display: block !important;
 }
 
 .d-ib {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .d-f {
-  display: flex;
+  display: flex !important;
 }
 
 .d-if {
-  display: inline-flex;
+  display: inline-flex !important;
 }
 
 .d-n {
@@ -374,59 +374,59 @@ body,
 
 /* Flex Display */
 .df-g0 {
-  flex-grow: 0;
+  flex-grow: 0 !important;
 }
 
 .df-g1 {
-  flex-grow: 1;
+  flex-grow: 1 !important;
 }
 
 .df-row {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 
 .df-col {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .dy-fs {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 
 .dy-fe {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 
 .dy-ce {
-  align-items: center;
+  align-items: center !important;
 }
 
 .dy-st {
-  align-items: stretch;
+  align-items: stretch !important;
 }
 
 .dx-fs {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 
 .dx-fe {
-  justify-content: flex-end;
+  justify-content: flex-end !important;
 }
 
 .dx-ce {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .dx-sb {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .dx-sa {
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 
 .dx-se {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 
 /* Overflow */
