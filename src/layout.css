@@ -31,6 +31,20 @@
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+.lm {
+  height: calc(100vh);
+}
+.lm.lc-t {
+  margin-top: var(--app-header);
+  height: calc(100vh - var(--app-header));
+}
+.lm.lc-b {
+  height: calc(100vh - var(--app-footer));
+}
+.lm.lc-t.lc-b {
+  margin-top: var(--app-header);
+  height: calc(100vh - (var(--app-header) + var(--app-footer)));
+}
 
 /* Side */
 .lm,
