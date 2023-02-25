@@ -373,6 +373,10 @@ body,
 }
 
 /* Flex Display */
+.df-fw {
+  flex-wrap: wrap !important;
+}
+
 .df-g0 {
   flex-grow: 0 !important;
 }
