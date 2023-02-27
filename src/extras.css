@@ -27,6 +27,9 @@
 .e-p {
   cursor: pointer;
 }
+.e-hide {
+  visibility: hidden !important;
+}
 
 .ef-r {
   float: right !important;
