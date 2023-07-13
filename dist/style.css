@@ -567,23 +567,17 @@ body,
   border-radius: 9999px !important;
 }
 
-.br-b {
+.br-bl {
   border-top-left-radius: 0 !important;
+}
+.br-br {
   border-top-right-radius: 0 !important;
 }
 
-.br-t {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-}
-
-.br-r {
-  border-top-left-radius: 0 !important;
+.br-tl {
   border-bottom-left-radius: 0 !important;
 }
-
-.br-l {
-  border-top-right-radius: 0 !important;
+.br-tr {
   border-bottom-right-radius: 0 !important;
 }
 .eh-100p {
@@ -615,6 +609,9 @@ body,
 .e-p {
   cursor: pointer;
 }
+.e-hide {
+  visibility: hidden !important;
+}
 
 .ef-r {
   float: right !important;
@@ -628,12 +625,18 @@ body,
   .hide-xs {
     display: none;
   }
+  .show-xs {
+    display: block;
+  }
 }
 /* Small Devices */
 @media (min-width: 576px) and (max-width: 767px) {
   /* CSS styles for small devices */
   .hide-sm {
     display: none;
+  }
+  .show-sm {
+    display: block;
   }
 }
 /* Medium Devices */
@@ -642,12 +645,18 @@ body,
   .hide-md {
     display: none;
   }
+  .show-md {
+    display: block;
+  }
 }
 /* Large Devices */
 @media (min-width: 992px) and (max-width: 1199px) {
   /* CSS styles for large devices */
   .hide-lg {
     display: none;
+  }
+  .show-lg {
+    display: block;
   }
 }
 /* Extra Large Devices */
@@ -656,169 +665,9 @@ body,
   .hide-xl {
     display: none;
   }
-}
-
-/* Medium Devices */
-@media (min-width: 768px) {
-  .hide-gt-md {
-    display: none !important;
+  .show-xl {
+    display: block;
   }
-}
-
-/* Large Devices */
-@media (min-width: 992px) {
-  .hide-gt-lg {
-    display: none !important;
-  }
-}
-
-/* Extra Large Devices */
-@media (min-width: 1200px) {
-  .hide-gt-xl {
-    display: none !important;
-  }
-}
-/* App */
-.lt,
-.lb,
-.ll,
-.lr {
-  position: fixed;
-}
-
-/* Header */
-.lt {
-  top: 0;
-  height: var(--app-header);
-}
-
-/* Footer */
-.lb {
-  bottom: 0;
-  height: var(--app-footer);
-}
-
-/* Main */
-.lt,
-.lb,
-.lm {
-  left: 0;
-  right: 0;
-}
-.lm {
-  transition-property: margin-left, margin-right;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
-}
-.lm {
-  height: calc(100vh);
-}
-
-/* Side */
-.lm,
-.ll,
-.lr {
-  top: 0;
-  bottom: 0;
-}
-.ll {
-  left: 0;
-  width: var(--app-left);
-}
-.lr {
-  right: 0;
-  width: var(--app-right);
-}
-.ll.mini {
-  left: 0;
-  width: var(--app-left-mini);
-}
-.lr.mini {
-  right: 0;
-  width: var(--app-right-mini);
-}
-
-/* Drawer */
-.ld {
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  will-change: transform;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: -webkit-transform;
-  transition-property: transform;
-}
-.ld.ll {
-  -webkit-transform: translateX(-100vw);
-  -ms-transform: translateX(-100vw);
-  transform: translateX(-100vw);
-}
-.ld.lr {
-  -webkit-transform: translateX(100vw);
-  -ms-transform: translateX(100vw);
-  transform: translateX(100vw);
-}
-.ld.open {
-  -webkit-transform: translateX(0) !important;
-  -ms-transform: translateX(0) !important;
-  transform: translateX(0) !important;
-}
-
-/* Clip */
-.lc-l {
-  margin-left: var(--app-left);
-}
-.lc-r {
-  margin-right: var(--app-right);
-}
-.lc-t {
-  top: var(--app-header);
-}
-.lc-b {
-  bottom: var(--app-footer);
-}
-.lm.lc-t {
-  margin-top: var(--app-header);
-  height: calc(100vh - var(--app-header));
-}
-.lm.lc-b {
-  height: calc(100vh - var(--app-footer));
-}
-.lm.lc-t.lc-b {
-  margin-top: var(--app-header);
-  height: calc(100vh - (var(--app-header) + var(--app-footer)));
-}
-
-/* Z-Index */
-.lt {
-  z-index: var(--app-header-layer);
-}
-.lb {
-  z-index: var(--app-footer-layer);
-}
-.ll {
-  z-index: var(--app-left-layer);
-}
-.lr {
-  z-index: var(--app-right-layer);
-}
-
-/* Variables */
-:root {
-  /* Sizes */
-  --app-header: 50px;
-  --app-footer: 50px;
-  --app-left: 185px;
-  --app-right: 185px;
-  --app-left-mini: 60px;
-  --app-right-mini: 60px;
-  /* Z-Index */
-  --app-header-layer: 2;
-  --app-footer-layer: 2;
-  --app-left-layer: 1;
-  --app-right-layer: 1;
 }
 .row {
   display: grid;
