@@ -1,0 +1,42 @@
+/* Fonts */
+.tf-sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif !important;
+}
+.tf-serif {
+  font-family: georgia, times, serif !important;
+}
+.tf-code {
+  font-family: Consolas, monaco, monospace !important;
+}
+.tf-courier {
+  font-family: "Courier Next", courier, monospace !important;
+}
+.tf-helvetica {
+  font-family: "helvetica neue", helvetica, sans-serif !important;
+}
+.tf-avenir {
+  font-family: "avenir next", avenir, sans-serif !important;
+}
+.tf-athelas {
+  font-family: athelas, georgia, serif !important;
+}
+.tf-georgia {
+  font-family: georgia, serif !important;
+}
+.tf-times {
+  font-family: times, serif !important;
+}
+.tf-bodoni {
+  font-family: "Bodoni MT", serif !important;
+}
+.tf-calisto {
+  font-family: "Calisto MT", serif !important;
+}
+.tf-garamond {
+  font-family: garamond, serif !important;
+}
+.tf-baskerville {
+  font-family: baskerville, serif !important;
+}
