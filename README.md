@@ -11,7 +11,7 @@
 </p>
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/xtyle-css@latest" />
+<link href="https://unpkg.com/xtyle-css@latest" rel="stylesheet" />
 ```
 
 <p align="center" style="font-size: 2.5em; letter-spacing: -2px; font-family: Georgia, sans-serif;" >
