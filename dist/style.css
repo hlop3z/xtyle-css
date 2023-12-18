@@ -349,6 +349,21 @@ body,
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+ul,
+li {
+  list-style: none;
+}
+
+/* Default Font */
+* {
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 /* Display */
@@ -455,11 +470,6 @@ body,
   border-width: 1px;
 }
 
-.bd-n {
-  border-style: none !important;
-  border-width: 0;
-}
-
 .bd-b {
   border-bottom-style: solid !important;
   border-bottom-width: 1px;
@@ -478,26 +488,6 @@ body,
 .bd-l {
   border-left-style: solid !important;
   border-left-width: 1px;
-}
-
-.bd-nb {
-  border-bottom-style: none !important;
-  border-width: 0 !important;
-}
-
-.bd-nt {
-  border-top-style: none !important;
-  border-width: 0 !important;
-}
-
-.bd-nr {
-  border-right-style: none !important;
-  border-width: 0 !important;
-}
-
-.bd-nl {
-  border-left-style: none !important;
-  border-width: 0 !important;
 }
 
 /* Width */
@@ -580,6 +570,26 @@ body,
 .br-tr {
   border-bottom-right-radius: 0 !important;
 }
+
+.bd-n {
+  border-style: none !important;
+}
+
+.bd-nb {
+  border-bottom-style: none !important;
+}
+
+.bd-nt {
+  border-top-style: none !important;
+}
+
+.bd-nr {
+  border-right-style: none !important;
+}
+
+.bd-nl {
+  border-left-style: none !important;
+}
 .eh-100p {
   height: 100% !important;
 }
@@ -606,11 +616,17 @@ body,
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+.e-ne {
+  pointer-events: none;
+}
 .e-p {
   cursor: pointer;
 }
 .e-hide {
   visibility: hidden !important;
+}
+.e-off {
+  display: none !important;
 }
 
 .ef-r {
@@ -806,10 +822,10 @@ body,
   --app-left-mini: 60px;
   --app-right-mini: 60px;
   /* Z-Index */
-  --app-header-layer: 2;
-  --app-footer-layer: 2;
-  --app-left-layer: 1;
-  --app-right-layer: 1;
+  --app-header-layer: 102;
+  --app-footer-layer: 102;
+  --app-left-layer: 101;
+  --app-right-layer: 101;
 }
 .row {
   display: grid;
@@ -2786,24 +2802,33 @@ body,
 .pa-24 {
   padding: 96px !important;
 }
+:root {
+  --text-size-1: 3rem;
+  --text-size-2: 2.25rem;
+  --text-size-3: 1.5rem;
+  --text-size-4: 1.25rem;
+  --text-size-5: 1rem;
+  --text-size-6: 0.875rem;
+}
+
 /* Text Size */
 .ts-1 {
-  font-size: 3rem !important;
+  font-size: var(--text-size-1) !important;
 }
 .ts-2 {
-  font-size: 2.25rem !important;
+  font-size: var(--text-size-2) !important;
 }
 .ts-3 {
-  font-size: 1.5rem !important;
+  font-size: var(--text-size-3) !important;
 }
 .ts-4 {
-  font-size: 1.25rem !important;
+  font-size: var(--text-size-4) !important;
 }
 .ts-5 {
-  font-size: 1rem !important;
+  font-size: var(--text-size-5) !important;
 }
 .ts-6 {
-  font-size: 0.875rem !important;
+  font-size: var(--text-size-6) !important;
 }
 
 /* Text Decoration */
