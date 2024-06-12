@@ -85,3 +85,9 @@ Follow this schema **`d{ y | x }-{spacing}`**
 !!! warning "`df-col`"
 
         The `flex-direction: column` requires a fixed `height`. For the `flex-grow` to work.
+
+## **DF** | Flex-Wrap (Options)
+
+| Key                            | Description              |
+| ------------------------------ | ------------------------ |
+| <code class="big">df-fw</code> | css -> `flex-wrap: wrap` |
