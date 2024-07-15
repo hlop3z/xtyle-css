@@ -101,14 +101,14 @@
 }
 .lm.lc-t {
   margin-top: var(--app-header);
-  height: calc(100vh - var(--app-header));
+  height: calc(100dvh - var(--app-header));
 }
 .lm.lc-b {
-  height: calc(100vh - var(--app-footer));
+  height: calc(100dvh - var(--app-footer));
 }
 .lm.lc-t.lc-b {
   margin-top: var(--app-header);
-  height: calc(100vh - (var(--app-header) + var(--app-footer)));
+  height: calc(100dvh - (var(--app-header) + var(--app-footer)));
 }
 
 /* Z-Index */
