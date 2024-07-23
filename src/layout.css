@@ -135,8 +135,8 @@
   --app-left-mini: 60px;
   --app-right-mini: 60px;
   /* Z-Index */
-  --app-header-layer: 101;
-  --app-footer-layer: 101;
-  --app-left-layer: 102;
-  --app-right-layer: 102;
+  --app-header-layer: 102;
+  --app-footer-layer: 102;
+  --app-left-layer: 101;
+  --app-right-layer: 101;
 }
