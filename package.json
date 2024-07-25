@@ -1,6 +1,6 @@
 {
   "name": "xtyle-css",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "description": "CSS Tools.",
   "main": "dist/style.min.css",
   "scripts": {

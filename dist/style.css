@@ -387,6 +387,27 @@ li {
   display: none !important;
 }
 
+.d-hide {
+  visibility: hidden !important;
+}
+
+/* Display Position */
+.dp-r {
+  position: relative;
+}
+
+.dp-a {
+  position: absolute;
+}
+
+.dp-s {
+  position: sticky;
+}
+
+.dp-f {
+  position: fixed;
+}
+
 /* Flex Display */
 .df-fw {
   flex-wrap: wrap !important;
@@ -590,6 +611,18 @@ li {
 .bd-nl {
   border-left-style: none !important;
 }
+.e-ns {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.e-ne {
+  pointer-events: none;
+}
+.e-p {
+  cursor: pointer;
+}
+
 .eh-100p {
   height: 100% !important;
 }
@@ -609,24 +642,6 @@ li {
 }
 .ew-i {
   width: inherit !important;
-}
-
-.e-ns {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-}
-.e-ne {
-  pointer-events: none;
-}
-.e-p {
-  cursor: pointer;
-}
-.e-hide {
-  visibility: hidden !important;
-}
-.e-off {
-  display: none !important;
 }
 
 .ef-r {
@@ -822,10 +837,10 @@ li {
   --app-left-mini: 60px;
   --app-right-mini: 60px;
   /* Z-Index */
-  --app-header-layer: 101;
-  --app-footer-layer: 101;
-  --app-left-layer: 102;
-  --app-right-layer: 102;
+  --app-header-layer: 102;
+  --app-footer-layer: 102;
+  --app-left-layer: 101;
+  --app-right-layer: 101;
 }
 .row {
   display: grid;

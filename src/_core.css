@@ -41,6 +41,27 @@ li {
   display: none !important;
 }
 
+.d-hide {
+  visibility: hidden !important;
+}
+
+/* Display Position */
+.dp-r {
+  position: relative;
+}
+
+.dp-a {
+  position: absolute;
+}
+
+.dp-s {
+  position: sticky;
+}
+
+.dp-f {
+  position: fixed;
+}
+
 /* Flex Display */
 .df-fw {
   flex-wrap: wrap !important;
