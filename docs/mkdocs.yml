@@ -28,6 +28,7 @@ theme:
     - navigation.sections
     - navigation.top
     - content.code.annotate
+    - content.code.copy
     # - navigation.expand
   icon:
     logo: material/circle-double

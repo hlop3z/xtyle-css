@@ -13,17 +13,17 @@ Follow this schema **`b{type}-{value}`**.
 
 !!! tip
 
-        You will notice the "**`b`, `t`, `r`, `l`**" a lot and sometimes the "**`n`**"
+    You will notice the "**`b`, `t`, `r`, `l`**" a lot and sometimes the "**`n`**"
 
-        - <code class="big">B</code> stands for **Bottom**
-        - <code class="big">T</code> stands for **Top**
-        - <code class="big">R</code> stands for **Right**
-        - <code class="big">L</code> stands for **Left**
+- <code class="big">B</code> stands for **Bottom**
+- <code class="big">T</code> stands for **Top**
+- <code class="big">R</code> stands for **Right**
+- <code class="big">L</code> stands for **Left**
 
-        and . . .
+and . . .
 
-        - <code class="big">N</code> stands for **Negative** aka: the opposite. In this case **`display : none`** borders.
-        - <code class="big">A</code> stands for **All** In this case **`display : all`** borders.
+- <code class="big">N</code> stands for **Negative** aka: the opposite. In this case **`display : none`** borders.
+- <code class="big">A</code> stands for **All** In this case **`display : all`** borders.
 
 ## Demo
 

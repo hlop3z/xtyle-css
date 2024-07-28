@@ -15,12 +15,12 @@ Follow this schema **`l{type}`**.
 
 !!! tip
 
-        You will notice the "**`b`, `t`, `r`, `l`**"
+    You will notice the "**`b`, `t`, `r`, `l`**"
 
-        - <code class="big">B</code> stands for **Bottom**
-        - <code class="big">T</code> stands for **Top**
-        - <code class="big">R</code> stands for **Right**
-        - <code class="big">L</code> stands for **Left**
+    - <code class="big">B</code> stands for **Bottom**
+    - <code class="big">T</code> stands for **Top**
+    - <code class="big">R</code> stands for **Right**
+    - <code class="big">L</code> stands for **Left**
 
 ## **Extra** (Options)
 

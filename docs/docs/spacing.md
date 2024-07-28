@@ -8,7 +8,7 @@ Notice how there's a "**`n`**" before **`{size}`**
 
 !!! tip
 
-        You can also use **`auto`**
+    You can also use **`auto`**
 
 ## Demo
 

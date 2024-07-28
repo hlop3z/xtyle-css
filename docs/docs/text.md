@@ -8,12 +8,6 @@ Follow this schema **`t{type}-{value}`**.
 | <code class="big">td</code> | Text-**Decoration** ~ Options: (**`i`** - **`b`** - **`u`** - **`s`** ) |
 | <code class="big">tt</code> | Text-**Transform** ~ Options: (**`t`** - **`u`** - **`l`** - **`c`** )  |
 | <code class="big">ta</code> | Text-**Align** ~ Options: (**`c`** - **`r`** - **`l`** )                |
-| <code class="big">tf</code> | Text-**Font**                                                           |
-
-!!! info "Text Fonts"
-
-    **`sans-serif`** | **`serif`** | **`code`** | **`courier`** | **`helvetica`** | **`avenir`** | **`athelas`** |
-    **`georgia`** | **`times`** | **`bodoni`** | **`calisto`** | **`garamond`** | **`baskerville`**
 
 ## Demo
 
@@ -22,7 +16,6 @@ Follow this schema **`t{type}-{value}`**.
 <div class="td-i">Hello World</div>
 <div class="tt-u">Hello World</div>
 <div class="ta-c">Hello World</div>
-<div class="tf-code">Hello World</div>
 ```
 
 ---

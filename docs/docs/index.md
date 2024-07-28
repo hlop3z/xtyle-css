@@ -33,14 +33,14 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 
 ## Inspired by
 
-!!! note "Normalize.css"
-
-        This project now also includes the [**`normalize.css`**](https://necolas.github.io/normalize.css/)
-
-A couple of projects including `bootstrap` have inspired me to make my own set of tools built with consonantly seen ideas.
+A couple of projects have inspired me to make my own set of tools built with consonantly seen ideas.
 If you are looking for a **production ready**, i will recommend using on of these tools or another tool.
 
 - <a href="https://getmdl.io/" target="_blank">Material Design Lite</a>
 - <a href="https://vuetifyjs.com/" target="_blank">Vuetify</a>
 - <a href="https://jenil.github.io/chota/" target="_blank">Chota</a>
 - <a href="https://tachyons.io/" target="_blank">Tachyons</a>
+
+## Notes
+
+This project includes [**`normalize.css`**](https://necolas.github.io/normalize.css/)
