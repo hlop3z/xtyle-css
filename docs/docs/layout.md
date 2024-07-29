@@ -33,7 +33,7 @@ Follow this schema **`l{type}`**.
 
 ```html
 <!-- Header -->
-<div class="lt">Header</div>
+<header class="lt">Header</header>
 
 <!-- Main -->
 <main class="lm lc-l lc-r lc-t lc-b">Application</main>
