@@ -368,19 +368,19 @@ li {
 
 /* Display */
 .d-b {
-  display: block !important;
+  display: block;
 }
 
 .d-ib {
-  display: inline-block !important;
+  display: inline-block;
 }
 
 .d-f {
-  display: flex !important;
+  display: flex;
 }
 
 .d-if {
-  display: inline-flex !important;
+  display: inline-flex;
 }
 
 .d-n {
