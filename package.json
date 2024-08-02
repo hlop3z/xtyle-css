@@ -2,11 +2,19 @@
   "name": "xtyle-css",
   "version": "0.1.21",
   "description": "CSS Tools.",
-  "main": "dist/style.min.css",
+  "main": "dist/style.css",
+  "type": "module",
   "scripts": {
-    "pre": "cat src/*.css > dist/style.css",
-    "size": "gzip -c dist/style.min.css | wc -c",
-    "build": "npm run pre && npx postcss --no-map ./dist/style.css > ./dist/style.min.css && npm run size"
+    "dev": "vite --host",
+    "build": "vite build && rm dist/index.js && npm run size",
+    "preview": "vite preview",
+    "size": "gzip -c dist/style.css | wc -c"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4",
+    "sass": "^1.77.8",
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.39"
   },
   "repository": {
     "type": "git",
@@ -22,10 +30,5 @@
   "homepage": "https://github.com/hlop3z/xtyle-css#readme",
   "files": [
     "dist"
-  ],
-  "devDependencies": {
-    "cssnano": "^5.1.14",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0"
-  }
+  ]
 }

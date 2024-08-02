@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xtyle CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      #left-bar,
+      #right-bar,
+      #left-mini-bar,
+      #right-mini-bar {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="lt sb-12 d-f dx-sb dy-ce px-4">
+      <span
+        class="material-symbols-outlined e-ns e-p"
+        onclick="GUI.toggle('left')"
+      >
+        menu
+      </span>
+      Header
+      <span
+        class="material-symbols-outlined e-ns e-p"
+        onclick="GUI.toggle('right')"
+      >
+        menu
+      </span>
+    </div>
+
+    <!-- Main -->
+    <main class="lm lc-l lc-r lc-t lc-b bd-a">
+      <div class="d-f df-col eh-100p mx-4 py-4">
+        <span class="ts-1 mb-4 mt-n1">Application</span>
+        <form v-scope class="ew-100p">
+          <div class="d-f df-col">
+            <label for="username">Username</label>
+            <input
+              class="py-2"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+          </div>
+          <div class="d-f df-col my-4">
+            <label for="password">Password</label>
+            <input
+              class="py-2"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+          <div class="d-f dx-sb mt-4">
+            <button type="button" class="px-4 py-2 color-bg-danger bd-n mr-2">
+              Cancel
+            </button>
+            <button type="button" class="px-4 py-2 color-bg-info bd-n">
+              Login
+            </button>
+          </div>
+        </form>
+        <div id="app" class="df-g1 oy-a pr-2"></div>
+      </div>
+    </main>
+
+    <!-- Drawers -->
+    <aside id="left-bar" class="ll lc-t lc-b ld ta-r bd-r">Left</aside>
+    <aside id="right-bar" class="lr lc-t lc-b ld bd-l">Right</aside>
+
+    <!-- Drawers (mini) -->
+    <aside id="left-mini-bar" class="ll lc-t lc-b ld mini bd-a">
+      Left-Mini
+    </aside>
+    <aside id="right-mini-bar" class="lr lc-t lc-b ld mini bd-a">
+      Right-Mini
+    </aside>
+
+    <!-- Footer -->
+    <footer class="lb st-12 d-f dx-ce dy-ce">Footer</footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/__init__.js"></script>
+
+    <script>
+      function lorem(style, count) {
+        const lorem = [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+          "An unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        ];
+        const list = [];
+        const len = lorem.length;
+        let i;
+        switch (style[0]) {
+          case "w":
+            for (i = 0; i < count; i += 1) {
+              const rand = Math.floor(len * Math.random());
+              const words = lorem[rand].trim().split(" ");
+              list.push(words[Math.floor(len * Math.random())]);
+            }
+            break;
+          case "s":
+            for (i = 0; i < count; i += 1) {
+              const rand = Math.floor(len * Math.random());
+              list.push(lorem[rand]);
+            }
+            break;
+          default:
+            break;
+        }
+        return list.join(" ");
+      }
+
+      document.getElementById("app").innerHTML = lorem("sentence", 100);
+    </script>
+    <script>
+      var GUI = {
+        toggle(side) {
+          document.querySelector(`#${side}-bar`).classList.toggle("open");
+        },
+      };
+    </script>
+  </body>
+</html>
