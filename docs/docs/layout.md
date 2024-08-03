@@ -82,5 +82,10 @@ Follow this schema **`l{type}`**.
   --app-footer-layer: 2;
   --app-left-layer: 1;
   --app-right-layer: 1;
+
+  /* Overlay */
+  --app-overlay-layer: 200;
+  --app-overlay-color: black;
+  --app-overlay-opacity: 0.4;
 }
 ```
