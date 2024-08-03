@@ -10,8 +10,12 @@
   /* Z-Index */
   --app-header-layer: 102;
   --app-footer-layer: 102;
-  --app-left-layer: 101;
-  --app-right-layer: 101;
+  --app-left-layer: 100;
+  --app-right-layer: 100;
+  /* Overlay */
+  --app-overlay-layer: 200;
+  --app-overlay-color: black;
+  --app-overlay-opacity: 0.4;
 }
 
 /* App */
@@ -167,4 +171,21 @@
 
 .lr {
   z-index: var(--app-right-layer);
+}
+
+/* Overlay */
+.lo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: var(--app-overlay-layer);
+  opacity: var(--app-overlay-opacity);
+  background-color: var(--app-overlay-color);
+}
+.lo-m {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: var(--app-overlay-layer);
+  background-color: transparent;
 }

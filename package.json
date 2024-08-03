@@ -1,6 +1,6 @@
 {
   "name": "xtyle-css",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "CSS Tools.",
   "main": "dist/style.css",
   "type": "module",

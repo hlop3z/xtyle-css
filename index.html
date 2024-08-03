@@ -12,8 +12,17 @@
       #left-bar,
       #right-bar,
       #left-mini-bar,
-      #right-mini-bar {
+      #right-mini-bar,
+      .dialog {
         background-color: white;
+      }
+      .dialog {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
       }
     </style>
   </head>
@@ -23,17 +32,28 @@
     <div class="lt sb-12 d-f dx-sb dy-ce px-4">
       <span
         class="material-symbols-outlined e-ns e-p"
-        onclick="GUI.toggle('left')"
+        onclick="GUI.side('left')"
       >
         menu
       </span>
       Header
       <span
         class="material-symbols-outlined e-ns e-p"
-        onclick="GUI.toggle('right')"
+        onclick="GUI.side('right')"
       >
         menu
       </span>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="lo"></div>
+    <div id="dialog" class="lo-m d-f dx-ce dy-ce">
+      <div class="dialog br-4">
+        <h2>Dialog</h2>
+        <button class="e-ns e-p mt-12 py-4 px-8" onclick="GUI.modal()">
+          Close
+        </button>
+      </div>
     </div>
 
     <!-- Main -->
@@ -129,8 +149,20 @@
     </script>
     <script>
       var GUI = {
-        toggle(side) {
-          document.querySelector(`#${side}-bar`).classList.toggle("open");
+        side(side) {
+          const element = document.querySelector(`#${side}-bar`);
+          element.classList.toggle("open");
+        },
+        modal(val = false) {
+          const overlay = document.querySelector(`#overlay`);
+          const dialog = document.querySelector(`#dialog`);
+          if (val) {
+            overlay.classList.remove("d-n");
+            dialog.classList.remove("d-n");
+          } else {
+            overlay.classList.add("d-n");
+            dialog.classList.add("d-n");
+          }
         },
       };
     </script>
