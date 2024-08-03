@@ -4,14 +4,15 @@ Follow this schema **`l{type}`**.
 
 ## **Layout** (Options)
 
-| Key                         | Description       |
-| --------------------------- | ----------------- |
-| <code class="big">lb</code> | Layout-**Bottom** |
-| <code class="big">lt</code> | Layout-**Top**    |
-| <code class="big">lr</code> | Layout-**Right**  |
-| <code class="big">ll</code> | Layout-**Left**   |
-| <code class="big">ld</code> | Layout-**Drawer** |
-| <code class="big">lc</code> | Layout-**Clip**   |
+| Key                         | Description        |
+| --------------------------- | ------------------ |
+| <code class="big">lb</code> | Layout-**Bottom**  |
+| <code class="big">lt</code> | Layout-**Top**     |
+| <code class="big">lr</code> | Layout-**Right**   |
+| <code class="big">ll</code> | Layout-**Left**    |
+| <code class="big">ld</code> | Layout-**Drawer**  |
+| <code class="big">lc</code> | Layout-**Clip**    |
+| <code class="big">lo</code> | Layout-**Overlay** |
 
 !!! tip
 
@@ -28,12 +29,24 @@ Follow this schema **`l{type}`**.
 | ----------------------------- | -------------------------------------------------------------------------- |
 | <code class="big">mini</code> | For a **smaller** version                                                  |
 | <code class="big">open</code> | If **`open`** the drawer **will display**, otherwise it **will be hidden** |
+| <code class="big">lo-m</code> | Overlay **modal**                                                          |
 
 ## Demo
 
 ```html
 <!-- Header -->
 <header class="lt">Header</header>
+
+<!-- Overlay -->
+<div class="lo"></div>
+
+<!-- Modal -->
+<div class="lo-m d-f dx-ce dy-ce">
+  <div class="pa-12" style="background-color: white;">
+    <h2>Dialog</h2>
+    <button>Close</button>
+  </div>
+</div>
 
 <!-- Main -->
 <main class="lm lc-l lc-r lc-t lc-b">Application</main>
