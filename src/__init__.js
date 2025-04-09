@@ -1,4 +1,3 @@
-import "./__normalize.css";
 import "./_core.css";
 import "./borders.css";
 import "./extras.css";
