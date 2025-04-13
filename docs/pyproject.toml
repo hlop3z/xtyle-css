@@ -3,9 +3,9 @@ requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
 
 [project]
-name = ""
-version = ""
-description = ""
+name = "xtyle-css"
+version = "1.0.0"
+description = "A lightweight CSS micro framework"
 authors = [
     {name = "hlop3z", email = "23062270+hlop3z@users.noreply.github.com"},
 ]
