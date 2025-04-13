@@ -1,18 +1,32 @@
-# **Xtyle** | CSS
+# **Xtyle CSS**
 
-Welcome to **`Xtyle-CSS`** a tool design to be a **`colorless`** and without **`components`** framework.
+Welcome to **`Xtyle CSS`**, a lightweight utility-first CSS framework designed to be **`colorless`** and **`component-less`**. Xtyle CSS provides a comprehensive set of atomic CSS classes with intuitive abbreviated naming patterns.
 
-Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="_blank">**`Xtyle`**</a>. But you can use this as a **standalone** tool.
+## Installation
 
-## No Install
+### CDN
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/xtyle-css@latest" />
 ```
 
-!!! tip "Tools"
+### NPM
 
-    <code class="big">d | m | p | t | b | s | o | e | l | row | col | g</code>
+```bash
+npm install xtyle-css
+```
+
+## Features
+
+- **Lightweight**: Only 28kb minified (5kb gzipped)
+- **Intuitive**: Simple abbreviated class names for rapid styling
+- **Standalone**: No external dependencies
+- **Flexible**: Design components by combining utility classes
+- **Responsive**: Built-in responsive grid system
+
+!!! tip "Core Utilities"
+
+    <code class="big">d | m | p | t | b | s | o | e | row | col | g</code>
 
 ## **Utils**
 
@@ -26,21 +40,6 @@ Main purpose is to complement <a href="https://github.com/hlop3z/xtyle" target="
 | <code class="big">s</code>   | [Shadows](shadows/)             |
 | <code class="big">o</code>   | [Overflow](overflow/)           |
 | <code class="big">e</code>   | [Extras](extras/)               |
-| <code class="big">l</code>   | [Layout](layout/)               |
 | <code class="big">row</code> | Row [(Rows & Columns)](row/)    |
 | <code class="big">col</code> | Column [(Rows & Columns)](row/) |
 | <code class="big">g</code>   | Gap [(Rows & Columns)](row/)    |
-
-## Inspired by
-
-A couple of projects have inspired me to make my own set of tools built with consonantly seen ideas.
-If you are looking for a **production ready**, i will recommend using on of these tools or another tool.
-
-- <a href="https://getmdl.io/" target="_blank">Material Design Lite</a>
-- <a href="https://vuetifyjs.com/" target="_blank">Vuetify</a>
-- <a href="https://jenil.github.io/chota/" target="_blank">Chota</a>
-- <a href="https://tachyons.io/" target="_blank">Tachyons</a>
-
-## Notes
-
-This project includes [**`normalize.css`**](https://necolas.github.io/normalize.css/)
