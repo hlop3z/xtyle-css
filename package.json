@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build && rm dist/index.js && npm run size",
+    "build": "vite build && rm dist/index.js",
     "preview": "vite preview",
     "size": "gzip -c dist/style.css | wc -c"
   },
