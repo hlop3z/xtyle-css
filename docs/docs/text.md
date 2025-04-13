@@ -6,12 +6,12 @@ Typography utilities control text appearance including size, style, decoration, 
 
 Text utilities follow the pattern **`t{type}-{value}`**
 
-| Prefix                      | Controls                | Examples                                   |
-| --------------------------- | ----------------------- | ------------------------------------------ |
-| <code class="big">ts</code> | Text Size               | `ts-1` (largest) through `ts-6` (smallest) |
-| <code class="big">td</code> | Text Decoration         | `td-b` (bold), `td-i` (italic)             |
-| <code class="big">tt</code> | Text Transform          | `tt-u` (uppercase), `tt-c` (truncate)      |
-| <code class="big">ta</code> | Text Alignment          | `ta-c` (center), `ta-l` (left)             |
+| Prefix                      | Controls        | Examples                                   |
+| --------------------------- | --------------- | ------------------------------------------ |
+| <code class="big">ts</code> | Text Size       | `ts-1` (largest) through `ts-6` (smallest) |
+| <code class="big">td</code> | Text Decoration | `td-b` (bold), `td-i` (italic)             |
+| <code class="big">tt</code> | Text Transform  | `tt-u` (uppercase), `tt-c` (truncate)      |
+| <code class="big">ta</code> | Text Alignment  | `ta-c` (center), `ta-l` (left)             |
 
 ## Text Size
 
@@ -19,12 +19,12 @@ Font sizes are predefined with CSS variables:
 
 ```css
 :root {
-  --text-size-1: 3rem;      /* ts-1 */
-  --text-size-2: 2.25rem;   /* ts-2 */
-  --text-size-3: 1.5rem;    /* ts-3 */
-  --text-size-4: 1.25rem;   /* ts-4 */
-  --text-size-5: 1rem;      /* ts-5 */
-  --text-size-6: 0.875rem;  /* ts-6 */
+  --text-size-1: 3rem; /* ts-1 */
+  --text-size-2: 2.25rem; /* ts-2 */
+  --text-size-3: 1.5rem; /* ts-3 */
+  --text-size-4: 1.25rem; /* ts-4 */
+  --text-size-5: 1rem; /* ts-5 */
+  --text-size-6: 0.875rem; /* ts-6 */
 }
 ```
 
@@ -42,12 +42,12 @@ Font sizes are predefined with CSS variables:
 
 Control font weight, style, and text decorations:
 
-| Class                       | Effect              | CSS Applied                    |
-| --------------------------- | ------------------- | ------------------------------ |
-| <code class="big">td-b</code> | Bold text           | `font-weight: bold`            |
-| <code class="big">td-i</code> | Italic text         | `font-style: italic`           |
-| <code class="big">td-u</code> | Underlined text     | `text-decoration: underline`   |
-| <code class="big">td-s</code> | Strikethrough text  | `text-decoration: line-through`|
+| Class                         | Effect             | CSS Applied                     |
+| ----------------------------- | ------------------ | ------------------------------- |
+| <code class="big">td-b</code> | Bold text          | `font-weight: bold`             |
+| <code class="big">td-i</code> | Italic text        | `font-style: italic`            |
+| <code class="big">td-u</code> | Underlined text    | `text-decoration: underline`    |
+| <code class="big">td-s</code> | Strikethrough text | `text-decoration: line-through` |
 
 ### Example - Text Decoration
 
@@ -63,11 +63,11 @@ Control font weight, style, and text decorations:
 
 Control text capitalization and truncation:
 
-| Class                       | Effect              | CSS Applied                    |
-| --------------------------- | ------------------- | ------------------------------ |
-| <code class="big">tt-t</code> | Title Case          | `text-transform: capitalize`   |
-| <code class="big">tt-u</code> | UPPERCASE           | `text-transform: uppercase`    |
-| <code class="big">tt-l</code> | lowercase           | `text-transform: lowercase`    |
+| Class                         | Effect            | CSS Applied                                                      |
+| ----------------------------- | ----------------- | ---------------------------------------------------------------- |
+| <code class="big">tt-t</code> | Title Case        | `text-transform: capitalize`                                     |
+| <code class="big">tt-u</code> | UPPERCASE         | `text-transform: uppercase`                                      |
+| <code class="big">tt-l</code> | lowercase         | `text-transform: lowercase`                                      |
 | <code class="big">tt-c</code> | Truncate with ... | `text-overflow: ellipsis; white-space: nowrap; overflow: hidden` |
 
 ### Example - Text Transform
@@ -77,7 +77,9 @@ Control text capitalization and truncation:
 <p class="tt-u">uppercase text (all capitals)</p>
 <p class="tt-l">LOWERCASE TEXT (all lowercase)</p>
 <div style="width: 200px">
-  <p class="tt-c">This text will be truncated with an ellipsis when it's too long</p>
+  <p class="tt-c">
+    This text will be truncated with an ellipsis when it's too long
+  </p>
 </div>
 ```
 
@@ -85,11 +87,11 @@ Control text capitalization and truncation:
 
 Control horizontal text alignment:
 
-| Class                       | Effect              | CSS Applied            |
-| --------------------------- | ------------------- | ---------------------- |
-| <code class="big">ta-l</code> | Left-aligned text   | `text-align: left`     |
-| <code class="big">ta-c</code> | Centered text       | `text-align: center`   |
-| <code class="big">ta-r</code> | Right-aligned text  | `text-align: right`    |
+| Class                         | Effect             | CSS Applied          |
+| ----------------------------- | ------------------ | -------------------- |
+| <code class="big">ta-l</code> | Left-aligned text  | `text-align: left`   |
+| <code class="big">ta-c</code> | Centered text      | `text-align: center` |
+| <code class="big">ta-r</code> | Right-aligned text | `text-align: right`  |
 
 ### Example - Text Alignment
 
@@ -109,5 +111,7 @@ Control horizontal text alignment:
 <p class="td-b td-u">Important: Please read carefully!</p>
 
 <!-- Truncated label -->
-<div style="width: 150px" class="tt-c td-b">This is a very long text that will be truncated</div>
+<div style="width: 150px" class="tt-c td-b">
+  This is a very long text that will be truncated
+</div>
 ```

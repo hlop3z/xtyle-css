@@ -5,23 +5,24 @@ The Extras module provides additional utility classes for common CSS needs that 
 ## Usage Pattern
 
 Extra utilities follow two patterns:
+
 - **`e-{value}`** for simple properties
 - **`e{type}-{value}`** for grouped properties
 
 ## Available Utilities
 
-| Class                         | CSS Property              | Description                         |
-| ----------------------------- | ------------------------- | ----------------------------------- |
-| <code class="big">e-ns</code> | `user-select: none`       | Prevents text selection             |
-| <code class="big">e-p</code>  | `cursor: pointer`         | Shows pointer cursor on hover       |
-| <code class="big">eh-100v</code> | `height: 100vh`        | Full viewport height                |
-| <code class="big">eh-100p</code> | `height: 100%`         | 100% of parent height               |
-| <code class="big">eh-i</code> | `height: inherit`         | Inherits height from parent         |
-| <code class="big">ew-100v</code> | `width: 100vw`         | Full viewport width                 |
-| <code class="big">ew-100p</code> | `width: 100%`          | 100% of parent width                |
-| <code class="big">ew-i</code> | `width: inherit`          | Inherits width from parent          |
-| <code class="big">ef-r</code> | `float: right`            | Floats element to the right         |
-| <code class="big">ef-l</code> | `float: left`             | Floats element to the left          |
+| Class                            | CSS Property        | Description                   |
+| -------------------------------- | ------------------- | ----------------------------- |
+| <code class="big">e-ns</code>    | `user-select: none` | Prevents text selection       |
+| <code class="big">e-p</code>     | `cursor: pointer`   | Shows pointer cursor on hover |
+| <code class="big">eh-100v</code> | `height: 100vh`     | Full viewport height          |
+| <code class="big">eh-100p</code> | `height: 100%`      | 100% of parent height         |
+| <code class="big">eh-i</code>    | `height: inherit`   | Inherits height from parent   |
+| <code class="big">ew-100v</code> | `width: 100vw`      | Full viewport width           |
+| <code class="big">ew-100p</code> | `width: 100%`       | 100% of parent width          |
+| <code class="big">ew-i</code>    | `width: inherit`    | Inherits width from parent    |
+| <code class="big">ef-r</code>    | `float: right`      | Floats element to the right   |
+| <code class="big">ef-l</code>    | `float: left`       | Floats element to the left    |
 
 ## Examples
 
@@ -29,23 +30,17 @@ Extra utilities follow two patterns:
 
 ```html
 <!-- Prevent text selection (useful for icons, buttons) -->
-<div class="e-ns">
-  This text cannot be selected by the user
-</div>
+<div class="e-ns">This text cannot be selected by the user</div>
 
 <!-- Add pointer cursor to indicate interactivity -->
-<div class="e-p">
-  This element shows a pointer cursor on hover
-</div>
+<div class="e-p">This element shows a pointer cursor on hover</div>
 ```
 
 ### Height Control
 
 ```html
 <!-- Full viewport height container -->
-<div class="eh-100v">
-  This div is the full height of the viewport
-</div>
+<div class="eh-100v">This div is the full height of the viewport</div>
 
 <!-- Container taking 100% of parent height -->
 <div style="height: 300px;">
@@ -66,9 +61,7 @@ Extra utilities follow two patterns:
 
 ```html
 <!-- Full viewport width -->
-<div class="ew-100v">
-  This spans the entire viewport width
-</div>
+<div class="ew-100v">This spans the entire viewport width</div>
 
 <!-- 100% parent width -->
 <div style="width: 500px;">
@@ -100,10 +93,16 @@ Extra utilities follow two patterns:
 
 <!-- Using float for layout -->
 <div style="overflow: auto; margin-top: 20px;">
-  <img src="https://via.placeholder.com/100" class="ef-l" style="margin-right: 10px;">
-  <p>This text wraps around the left-floated image. In modern layouts, 
-     consider using flexbox or grid instead of floats, but floats remain
-     useful for text-wrapping around images.</p>
+  <img
+    src="https://via.placeholder.com/100"
+    class="ef-l"
+    style="margin-right: 10px;"
+  />
+  <p>
+    This text wraps around the left-floated image. In modern layouts, consider
+    using flexbox or grid instead of floats, but floats remain useful for
+    text-wrapping around images.
+  </p>
 </div>
 ```
 

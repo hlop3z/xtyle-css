@@ -6,12 +6,12 @@ Border utilities provide easy control over border appearance, width, style, and 
 
 Border utilities follow the pattern **`b{type}-{value}`**
 
-| Prefix                      | Description      | Options                                                                           |
-| --------------------------- | ---------------- | --------------------------------------------------------------------------------- |
-| <code class="big">bw</code> | Border Width     | `0` to `5` (increasing thickness)                                                 |
-| <code class="big">bs</code> | Border Style     | `dotted`, `dashed`, `solid`                                                       |
-| <code class="big">br</code> | Border Radius    | `0` to `4` (increasing radius), `100p` (circular), `pill` (rounded), directional  |
-| <code class="big">bd</code> | Border Display   | `a` (all), `b` (bottom), `t` (top), `r` (right), `l` (left), or with `n` prefix   |
+| Prefix                      | Description    | Options                                                                          |
+| --------------------------- | -------------- | -------------------------------------------------------------------------------- |
+| <code class="big">bw</code> | Border Width   | `0` to `5` (increasing thickness)                                                |
+| <code class="big">bs</code> | Border Style   | `dotted`, `dashed`, `solid`                                                      |
+| <code class="big">br</code> | Border Radius  | `0` to `4` (increasing radius), `100p` (circular), `pill` (rounded), directional |
+| <code class="big">bd</code> | Border Display | `a` (all), `b` (bottom), `t` (top), `r` (right), `l` (left), or with `n` prefix  |
 
 ## Direction Abbreviations
 
@@ -58,16 +58,20 @@ Adding `n` prefix to border display removes borders:
 ## All Available Classes
 
 ### Border Width
+
 - `bw-0`, `bw-1`, `bw-2`, `bw-3`, `bw-4`, `bw-5`
 
 ### Border Style
+
 - `bs-dotted`, `bs-dashed`, `bs-solid`
 
 ### Border Radius
+
 - Size: `br-0`, `br-1`, `br-2`, `br-3`, `br-4`
 - Special: `br-100p` (circle), `br-pill` (rounded pill)
 - Directional: `br-t`, `br-r`, `br-b`, `br-l`
 
 ### Border Display
+
 - Show: `bd-a`, `bd-t`, `bd-r`, `bd-b`, `bd-l`
 - Hide: `bd-n`, `bd-nt`, `bd-nr`, `bd-nb`, `bd-nl`

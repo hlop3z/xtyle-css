@@ -5,6 +5,7 @@ Xtyle CSS provides a flexible grid system based on CSS Grid and Flexbox that sim
 ## Basic Grid Structure
 
 A grid consists of:
+
 1. A container with the `row` class
 2. Child elements with the `col` class
 3. Optional gap utilities (`gx-*` and `gy-*`) for spacing
@@ -23,10 +24,10 @@ The `row` class creates a flex container that wraps its children and provides th
 
 Control the spacing between grid items using gap utilities:
 
-| Class Pattern           | CSS Property       | Available Sizes    |
-| ----------------------- | ------------------ | ------------------ |
-| <code class="big">gx-*</code> | `column-gap`      | `0` through `16`   |
-| <code class="big">gy-*</code> | `row-gap`         | `0` through `16`   |
+| Class Pattern                  | CSS Property | Available Sizes  |
+| ------------------------------ | ------------ | ---------------- |
+| <code class="big">gx-\*</code> | `column-gap` | `0` through `16` |
+| <code class="big">gy-\*</code> | `row-gap`    | `0` through `16` |
 
 ```html
 <!-- Grid with horizontal gap of 2 units and vertical gap of 3 units -->
@@ -39,12 +40,12 @@ Control the spacing between grid items using gap utilities:
 
 Columns automatically adjust based on the available space. Use responsive classes to control column width at different screen sizes:
 
-| Prefix                      | Screen Width               | Example Use Case             |
-| --------------------------- | -------------------------- | ---------------------------- |
-| <code class="big">col-sm</code> | Small (max-width: 767px)   | Mobile phones               |
-| <code class="big">col-md</code> | Medium (min-width: 768px)  | Tablets                     |
-| <code class="big">col-lg</code> | Large (min-width: 992px)   | Laptops/Desktops           |
-| <code class="big">col-xl</code> | Extra large (min-width: 1200px) | Large displays            |
+| Prefix                          | Screen Width                    | Example Use Case |
+| ------------------------------- | ------------------------------- | ---------------- |
+| <code class="big">col-sm</code> | Small (max-width: 767px)        | Mobile phones    |
+| <code class="big">col-md</code> | Medium (min-width: 768px)       | Tablets          |
+| <code class="big">col-lg</code> | Large (min-width: 992px)        | Laptops/Desktops |
+| <code class="big">col-xl</code> | Extra large (min-width: 1200px) | Large displays   |
 
 Column sizes range from `1` to `12`, representing the number of columns out of 12 that the element should span.
 
@@ -67,14 +68,16 @@ Here's a responsive grid with three columns that stack on mobile:
       <p>This column adjusts its width based on screen size.</p>
     </div>
   </div>
-  
+
   <div class="col col-sm-12 col-md-6 col-lg-4">
     <div class="p-3" style="background-color: #f0f0f0; border-radius: 4px;">
       <h3>Second Column</h3>
-      <p>On mobile, these stack vertically. On tablet, they form two columns.</p>
+      <p>
+        On mobile, these stack vertically. On tablet, they form two columns.
+      </p>
     </div>
   </div>
-  
+
   <div class="col col-sm-12 col-md-12 col-lg-4">
     <div class="p-3" style="background-color: #f0f0f0; border-radius: 4px;">
       <h3>Third Column</h3>
@@ -96,7 +99,7 @@ Create uneven column distributions for more diverse layouts:
       Sidebar
     </div>
   </div>
-  
+
   <!-- Main content: 3/4 width on large screens -->
   <div class="col col-sm-12 col-lg-9">
     <div class="p-3" style="background-color: #f5f5f5; height: 300px;">
@@ -115,7 +118,7 @@ Grids can be nested within columns for more complex layouts:
   <div class="col col-md-6">
     <div class="p-3" style="background-color: #e0e0e0;">
       <h3>Main Column</h3>
-      
+
       <!-- Nested grid -->
       <div class="row gx-2 gy-2">
         <div class="col col-6">Nested Column 1</div>
@@ -123,11 +126,9 @@ Grids can be nested within columns for more complex layouts:
       </div>
     </div>
   </div>
-  
+
   <div class="col col-md-6">
-    <div class="p-3" style="background-color: #e0e0e0;">
-      Second Main Column
-    </div>
+    <div class="p-3" style="background-color: #e0e0e0;">Second Main Column</div>
   </div>
 </div>
 ```

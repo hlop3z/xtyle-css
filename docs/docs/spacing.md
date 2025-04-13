@@ -12,24 +12,24 @@ Spacing utilities follow the pattern **`{type}{direction}-{size}`**
 
 ## Margin vs Padding
 
-| Prefix                      | CSS Property | Description                        |
-| --------------------------- | ------------ | ---------------------------------- |
-| <code class="big">m</code>  | `margin`     | Space outside element boundaries   |
-| <code class="big">p</code>  | `padding`    | Space inside element boundaries    |
+| Prefix                     | CSS Property | Description                      |
+| -------------------------- | ------------ | -------------------------------- |
+| <code class="big">m</code> | `margin`     | Space outside element boundaries |
+| <code class="big">p</code> | `padding`    | Space inside element boundaries  |
 
 ## Direction Control
 
 Control which sides receive spacing:
 
-| Direction                   | Applies To              | Example           |
-| --------------------------- | ----------------------- | ----------------- |
-| <code class="big">t</code>  | Top only                | `mt-4`, `pt-2`    |
-| <code class="big">r</code>  | Right only              | `mr-3`, `pr-4`    |
-| <code class="big">b</code>  | Bottom only             | `mb-5`, `pb-3`    |
-| <code class="big">l</code>  | Left only               | `ml-2`, `pl-1`    |
-| <code class="big">x</code>  | Left and right sides    | `mx-4`, `px-auto` |
-| <code class="big">y</code>  | Top and bottom sides    | `my-3`, `py-2`    |
-| *(none)*                    | All sides               | `m-4`, `p-2`      |
+| Direction                  | Applies To           | Example           |
+| -------------------------- | -------------------- | ----------------- |
+| <code class="big">t</code> | Top only             | `mt-4`, `pt-2`    |
+| <code class="big">r</code> | Right only           | `mr-3`, `pr-4`    |
+| <code class="big">b</code> | Bottom only          | `mb-5`, `pb-3`    |
+| <code class="big">l</code> | Left only            | `ml-2`, `pl-1`    |
+| <code class="big">x</code> | Left and right sides | `mx-4`, `px-auto` |
+| <code class="big">y</code> | Top and bottom sides | `my-3`, `py-2`    |
+| _(none)_                   | All sides            | `m-4`, `p-2`      |
 
 ## Size Values
 

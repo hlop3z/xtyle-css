@@ -11,37 +11,53 @@ Overflow utilities follow the pattern **`o{axis}-{behavior}`**
 
 ## Overflow Options
 
-| Class                         | CSS Applied                | Description                                     |
-| ----------------------------- | -------------------------- | ----------------------------------------------- |
-| <code class="big">oy-a</code> | `overflow-y: auto`         | Adds scrollbar on Y-axis only when needed       |
-| <code class="big">oy-h</code> | `overflow-y: hidden`       | Hides content that overflows vertically         |
-| <code class="big">ox-a</code> | `overflow-x: auto`         | Adds scrollbar on X-axis only when needed       |
-| <code class="big">ox-h</code> | `overflow-x: hidden`       | Hides content that overflows horizontally       |
+| Class                         | CSS Applied          | Description                               |
+| ----------------------------- | -------------------- | ----------------------------------------- |
+| <code class="big">oy-a</code> | `overflow-y: auto`   | Adds scrollbar on Y-axis only when needed |
+| <code class="big">oy-h</code> | `overflow-y: hidden` | Hides content that overflows vertically   |
+| <code class="big">ox-a</code> | `overflow-x: auto`   | Adds scrollbar on X-axis only when needed |
+| <code class="big">ox-h</code> | `overflow-x: hidden` | Hides content that overflows horizontally |
 
 ## Examples
 
 ```html
 <!-- Fixed height container with vertical scrolling -->
-<div class="oy-a" style="height: 200px; width: 300px; border: 1px solid #ccc; padding: 10px;">
+<div
+  class="oy-a"
+  style="height: 200px; width: 300px; border: 1px solid #ccc; padding: 10px;"
+>
   <h3>Scrollable Content</h3>
-  <p>This content will scroll vertically when it exceeds the container height.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, 
-     nisi vel consectetur euismod, nisi nisl consectetur nisi, euismod nisl
-     nisi vel consectetur euismod, nisi nisl consectetur nisi, euismod nisl
-     nisi vel consectetur euismod, nisi nisl consectetur nisi, euismod nisl.</p>
+  <p>
+    This content will scroll vertically when it exceeds the container height.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod,
+    nisi vel consectetur euismod, nisi nisl consectetur nisi, euismod nisl nisi
+    vel consectetur euismod, nisi nisl consectetur nisi, euismod nisl nisi vel
+    consectetur euismod, nisi nisl consectetur nisi, euismod nisl.
+  </p>
   <p>Additional content to demonstrate scrolling behavior...</p>
 </div>
 
 <!-- Fixed width container with horizontal scrolling -->
-<div class="ox-a" style="width: 300px; border: 1px solid #ccc; margin-top: 20px;">
+<div
+  class="ox-a"
+  style="width: 300px; border: 1px solid #ccc; margin-top: 20px;"
+>
   <div style="width: 600px; padding: 10px;">
     <h3>Horizontally Scrollable Content</h3>
-    <p>This content will scroll horizontally because it's wider than its container.</p>
+    <p>
+      This content will scroll horizontally because it's wider than its
+      container.
+    </p>
   </div>
 </div>
 
 <!-- Container that hides overflow -->
-<div class="oy-h" style="height: 100px; width: 300px; border: 1px solid #ccc; margin-top: 20px; padding: 10px;">
+<div
+  class="oy-h"
+  style="height: 100px; width: 300px; border: 1px solid #ccc; margin-top: 20px; padding: 10px;"
+>
   <h3>Hidden Overflow</h3>
   <p>This content is cut off when it exceeds the container's height.</p>
   <p>Additional content that will be hidden...</p>

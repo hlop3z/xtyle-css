@@ -11,12 +11,12 @@ Shadow utilities follow the pattern **`s{side}-{depth}`**
 
 ## Shadow Options
 
-| Class Prefix                 | Direction          | Available Depths       | Effect                 |
-| ---------------------------- | ------------------ | ---------------------- | ---------------------- |
-| <code class="big">sb</code>  | Bottom shadow      | `0` to `24`            | Elevates element above surface |
-| <code class="big">st</code>  | Top shadow         | `0` to `24`            | Creates inset or pressed appearance |
-| <code class="big">sr</code>  | Right shadow       | `0` to `12`            | Adds depth to the left side |
-| <code class="big">sl</code>  | Left shadow        | `0` to `12`            | Adds depth to the right side |
+| Class Prefix                | Direction     | Available Depths | Effect                              |
+| --------------------------- | ------------- | ---------------- | ----------------------------------- |
+| <code class="big">sb</code> | Bottom shadow | `0` to `24`      | Elevates element above surface      |
+| <code class="big">st</code> | Top shadow    | `0` to `24`      | Creates inset or pressed appearance |
+| <code class="big">sr</code> | Right shadow  | `0` to `12`      | Adds depth to the left side         |
+| <code class="big">sl</code> | Left shadow   | `0` to `12`      | Adds depth to the right side        |
 
 ## Examples
 
@@ -36,12 +36,18 @@ Shadow utilities follow the pattern **`s{side}-{depth}`**
 </div>
 
 <!-- Inset effect with top shadow -->
-<div class="st-8 p-4 m-3" style="width: 300px; border-radius: 4px; background: #f5f5f5;">
+<div
+  class="st-8 p-4 m-3"
+  style="width: 300px; border-radius: 4px; background: #f5f5f5;"
+>
   <p>This element appears to be pressed into the surface.</p>
 </div>
 
 <!-- Button with shadow -->
-<button class="sb-3 p-2 px-4 m-3" style="border: none; border-radius: 4px; background: #4285f4; color: white;">
+<button
+  class="sb-3 p-2 px-4 m-3"
+  style="border: none; border-radius: 4px; background: #4285f4; color: white;"
+>
   Elevated Button
 </button>
 ```
@@ -60,8 +66,12 @@ For interactive elements like buttons, you can use different shadow depths for d
     border-radius: 4px;
     transition: all 0.2s ease;
   }
-  .btn:hover { box-shadow: var(--shadow-bottom-6); }
-  .btn:active { box-shadow: var(--shadow-bottom-2); }
+  .btn:hover {
+    box-shadow: var(--shadow-bottom-6);
+  }
+  .btn:active {
+    box-shadow: var(--shadow-bottom-2);
+  }
 </style>
 
 <button class="btn sb-4">Interactive Button</button>
